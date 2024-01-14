@@ -8,6 +8,12 @@ body {
     justify-content: space-between;
     font-family: 'Nunito', sans-serif;
     color: white;
+    overflow-x: hidden;
+    position: relative
+}
+
+html {
+  overflow-x: hidden;
 }
 
 /* HEADER - CABEÇALHO -------------------------------------*/
