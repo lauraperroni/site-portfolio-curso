@@ -207,3 +207,33 @@ html {
         transform: scale(1);
     }
 }
+
+@media only screen and (max-width: 488px) {
+    body {
+        background-color: #ff7b91;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        overflow-x: hidden;
+        position: relative
+    }
+
+    .main {
+        width: 95%;
+        max-width: 488px;
+        padding: 6px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .section {
+        background-color: pink;
+        padding: 6px;
+        width: 95%;
+        max-width: 350px;
+        margin: 16px auto;
+    }
+  }
